@@ -1,0 +1,67 @@
+.password-item-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #c3caea;
+  border-radius: 8px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 260px;
+  height: 120px;
+}
+
+.password-details {
+  display: flex;
+  align-items: flex-start;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #10b981;
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  align-self: center;
+}
+
+.user-details-container {
+  margin-right: 10px;
+  margin-left: 12px;
+  /* width: 100%; */
+}
+
+.list-item {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+.delete-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  padding: 0px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 24px;
+}
+
+.delete-icon {
+  width: 100%;
+}
+
+.stars-icon {
+  max-width: 100px;
+}
